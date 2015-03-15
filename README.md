@@ -2,6 +2,7 @@ This fork is a quick and dirty solution to run this software on Linux.
 
 Requirements:
 * mono
+
 Usage:
 * mono bin/Release/Vinesauce\ ROM\ Corruptor.exe
 
