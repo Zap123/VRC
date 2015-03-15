@@ -57,13 +57,19 @@ namespace Vinesauce_ROM_Corruptor
         [STAThread]
         static void Main()
         {
-            _hookID = SetHook(_proc);
+			#if __MonoCS__
+			#else
+           	_hookID = SetHook(_proc);
+			#endif
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             form = new MainForm();
             form.StartPosition = FormStartPosition.CenterScreen;
             Application.Run(form);
-            UnhookWindowsHookEx(_hookID);
+			#if __MonoCS__
+			#else
+           	UnhookWindowsHookEx(_hookID);
+			#endif
         }
 
         private static IntPtr SetHook(LowLevelKeyboardProc proc)
