@@ -1,10 +1,12 @@
 This fork is a quick and dirty solution to run this software on Linux.
+
 Requirements:
 * mono
 Usage:
 * mono bin/Release/Vinesauce\ ROM\ Corruptor.exe
 
 If you want to compile it you need *monodevelop* and *mono-vbnc*
+
 Known problems:
 * Autostart of the emulator doesn't work (run manually)
 * Hotkeys are disabled as they doesn't compile in mono
