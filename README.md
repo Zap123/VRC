@@ -10,7 +10,7 @@ If you want to compile it you need *monodevelop* and *mono-vbnc*
 
 Known problems:
 * Autostart of the emulator doesn't work (run manually)
-* Hotkeys are disabled as they doesn't compile in mono
+* Hotkeys are disabled as they doesn't work in Mono
 
 ![Screenshot on Linux](src/UbuntuCorruptor)
 
