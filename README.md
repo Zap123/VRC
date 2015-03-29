@@ -8,7 +8,7 @@ Usage:
 
 If you want to compile it you need *monodevelop* and *mono-vbnc*
 
-Known problems:
+Known issues:
 * Autostart of the emulator doesn't work (run manually)
 * Hotkeys are disabled as they doesn't work in Mono
 
